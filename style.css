@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #000000;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    background: linear-gradient(to right, #33a8db, #1472b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.banner button {
+    background-color: #31A8DD;
+    color:white;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#course-content {
+    background-color: #000000;
+    color: #33a8db;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.module {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #33a8db;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px 0;
+    color: #33a8db;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.module span{
+    color: white;
+    font-weight: 900;
+}
+
+#transform-world p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-shadow: 0, 0, 10px #33a8db;
+    margin: 0;
+}
+
+#professional-challenges {
+    background-color: #000000;
+    color: #33a8db;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#professional-challenges h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#professional-challenges p {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #000000;
+    color: white
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer a {
+    color:#33a8db;
+    text-decoration: none;
+}
+
+#transform-world {
+    background-image: url('./assets/images/woman-code.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 400px;
+}
+
